@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<!-- Bootstrap 5 Bart Simpson template designed for INFO1005 Website Design - 2025 -->
+<!-- Date: September 2025  -->
+<!-- Author: Website Design Team -->
+
+<html lang="en">
+<head>
+    <!-- Required Boostrap meta tags - Start -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required Boostrap meta tags - End -->
+
+    <!-- Other meta tags - Start -->
+    <meta name="description" content="Bart Simpson's Portfolio">
+    <meta name="author" content="Bart Simpson">
+    <!-- Other meta tags - End -->
+
+    <!-- Bootstrap Icons - Start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap Icons - End -->
+
+    <!-- Favicon - Start: Use favicon.io to create your icons and save them into a favicon folder -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Favicon - End -->
+
+     <!-- Google Font - Start: Oswald and Montserrat - Note: it is a good practice to mention your selected typefaces in your comment -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+     <!-- Google Font - End -->
+
+     <!-- Bootstrap core CSS - Start -->
+     <!-- IDEA: this is where Boostrap's CSS is loaded in via their CDN - you don't need to include the actual files in your site folder, but they are usful to refer to-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <!-- Bootstrap core CSS - End -->
+
+     <!-- Custom Styles for this template - Start: Must be after Bootstrap's link element to over ride it (load after) as needed -->
+     <link href="css/custom.css" rel="stylesheet">
+     <!-- Custom Styles - End -->
+
+    <title>Bart Simpson | Contact Me</title>
+     
+</head>
+<body class="bg-warning">
+    <!-- Navbar - Start -->
+  <nav id="navbar-example2" class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="bart" src="img/bart.jpg" alt="Bart Simpson in a dark pair of sunglasses"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar - End -->
+
+    <!-- Portfolio Gallery -->
+    <div class="container">
+        <div class="row g-4">
+            <h2>Portfolio</h2>
+            <p>Welcome to the Bart Simpson show. Browse through the gallery and checkout my work in detail by clicking on each image or video for the full story about its origins and a close-up view.</p>
+            <!-- Portfolio Item 1 (Image) -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1015/600/400" class="portfolio-img" alt="Project 1"
+                        data-bs-toggle="modal" data-bs-target="#lightboxModal"
+                        data-type="image"
+                        data-src="https://picsum.photos/id/1015/1200/800"
+                        data-title="Mountain View"
+                        data-desc="A beautiful mountain landscape.">
+                    <div class="card-body">
+                        <h5 class="card-title">Mountain View</h5>
+                        <p class="card-text">A beautiful mountain landscape.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Item 2 (Image) -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1025/600/400" class="portfolio-img" alt="Project 2"
+                        data-bs-toggle="modal" data-bs-target="#lightboxModal"
+                        data-type="image"
+                        data-src="https://picsum.photos/id/1025/1200/800"
+                        data-title="Dog Portrait"
+                        data-desc="A portrait of a dog.">
+                    <div class="card-body">
+                        <h5 class="card-title">Dog Portrait</h5>
+                        <p class="card-text">A portrait of a dog.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Item 3 (YouTube Video) -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" class="portfolio-img" alt="Project 3"
+                        data-bs-toggle="modal" data-bs-target="#lightboxModal"
+                        data-type="video"
+                        data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        data-title="YouTube Demo"
+                        data-desc="A sample YouTube video.">
+                    <div class="card-body">
+                        <h5 class="card-title">YouTube Demo</h5>
+                        <p class="card-text">A sample YouTube video.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Item 4 (Image) -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1041/600/400" class="portfolio-img" alt="Project 4"
+                        data-bs-toggle="modal" data-bs-target="#lightboxModal"
+                        data-type="image"
+                        data-src="https://picsum.photos/id/1041/1200/800"
+                        data-title="City Lights"
+                        data-desc="Night view of a city.">
+                    <div class="card-body">
+                        <h5 class="card-title">City Lights</h5>
+                        <p class="card-text">Night view of a city.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Item 5 (YouTube Video) -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg" class="portfolio-img" alt="Project 5"
+                        data-bs-toggle="modal" data-bs-target="#lightboxModal"
+                        data-type="video"
+                        data-src="https://www.youtube.com/embed/9bZkp7q19f0"
+                        data-title="Gangnam Style"
+                        data-desc="Another YouTube video example.">
+                    <div class="card-body">
+                        <h5 class="card-title">Gangnam Style</h5>
+                        <p class="card-text">Another YouTube video example.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 (Image) -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1050/600/400" class="portfolio-img" alt="Project 6"
+                        data-bs-toggle="modal" data-bs-target="#lightboxModal"
+                        data-type="image"
+                        data-src="https://picsum.photos/id/1050/1200/800"
+                        data-title="Forest Path"
+                        data-desc="A path through the forest.">
+                    <div class="card-body">
+                        <h5 class="card-title">Forest Path</h5>
+                        <p class="card-text">A path through the forest.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="lightboxModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="lightboxImage" class="modal-img d-none" alt="">
+                    <div class="ratio ratio-16x9 d-none" id="lightboxVideoWrapper">
+                        <iframe id="lightboxVideo" class="modal-video" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="mt-3" id="lightboxDesc"></p>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-secondary" id="prevBtn"><i class="bi bi-arrow-left"></i> Prev</button>
+                    <button type="button" class="btn btn-secondary" id="nextBtn">Next <i class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =================No Content below here========================= -->
+    <!-- Bootstrap JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap 5 JS Bundle -->
+     
+          <!--  BOOTSTRAP BUNDLE WITH POPPER - Start -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+       <!--  BOOTSTRAP BUNDLE WITH POPPER - End -->
+
+
+    <script>
+        // Collect all portfolio items
+        const items = Array.from(document.querySelectorAll('.portfolio-img'));
+        let currentIndex = 0;
+
+        function showModal(index) {
+            const item = items[index];
+            const type = item.getAttribute('data-type');
+            const src = item.getAttribute('data-src');
+            const title = item.getAttribute('data-title');
+            const desc = item.getAttribute('data-desc');
+
+            document.getElementById('lightboxModalLabel').textContent = title || '';
+            document.getElementById('lightboxDesc').textContent = desc || '';
+
+            const img = document.getElementById('lightboxImage');
+            const videoWrapper = document.getElementById('lightboxVideoWrapper');
+            const video = document.getElementById('lightboxVideo');
+
+            if (type === 'image') {
+                img.src = src;
+                img.classList.remove('d-none');
+                videoWrapper.classList.add('d-none');
+                video.src = '';
+            } else if (type === 'video') {
+                img.classList.add('d-none');
+                videoWrapper.classList.remove('d-none');
+                video.src = src + '?autoplay=1';
+            }
+        }
+
+        items.forEach((item, idx) => {
+            item.addEventListener('click', () => {
+                currentIndex = idx;
+                showModal(currentIndex);
+            });
+        });
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + items.length) % items.length;
+            showModal(currentIndex);
+        });
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % items.length;
+            showModal(currentIndex);
+        });
+
+        // Clear video src on modal close to stop playback
+        document.getElementById('lightboxModal').addEventListener('hidden.bs.modal', () => {
+            document.getElementById('lightboxVideo').src = '';
+        });
+    </script>
+</body>
+</html>
